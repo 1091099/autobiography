@@ -1,0 +1,32 @@
+.text1{
+    font-size: 30px;
+    width: 300px;
+    color: #A1BFCC;
+    line-height: 1.5;
+    margin-top:10 px;
+    margin-bottom:20 px;
+    padding-left:15 px;
+    padding-right:5 px;
+    border: 20px solid #A1BFCC;
+    }
+    
+    .title{
+    cursor: pointer; }
+    .text1{
+    cursor: progress; }
+    .text2{
+    cursor: move; }
+    
+    .title:hover{
+    color:#CBA8A1
+    }
+    .text1:hover{
+    opacity:0.8
+    }
+    .text2:hover{
+    color:white;
+    }
+    .text2:active{
+    cursor: pointer;
+    background-color:pink;
+    }
